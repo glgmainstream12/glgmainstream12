@@ -64,10 +64,10 @@ Most of that work lives in private company repositories, so the overview below d
 ### 📊 GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=glgmainstream12&theme=github-dark-blue&hide_border=true" alt="Contribution streak"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=glgmainstream12&layout=compact&theme=github_dark&hide_border=true" alt="Top languages"/>
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=glgmainstream12&theme=github_dark" alt="Profile details"/>
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=glgmainstream12&theme=github-compact&hide_border=true" alt="Contribution graph"/>
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=glgmainstream12&theme=github-dark-blue&hide_border=true" alt="Contribution streak"/>
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=glgmainstream12&theme=github_dark" alt="Repos per language"/>
 </p>
