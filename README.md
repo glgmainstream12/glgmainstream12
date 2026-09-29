@@ -3,12 +3,14 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mohammad-gilang-fauzan-6975411a6/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://portofolio-gilang-lime.vercel.app"><img src="https://img.shields.io/badge/Portfolio-E56047?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
   <img src="https://komarev.com/ghpvc/?username=glgmainstream12&style=for-the-badge&color=blue" alt="Profile views"/>
 </p>
 
 ---
 
 I'm a Tech Developer at Studia Academy, an online tutoring company, where I work across the whole platform: the web app, the API behind it, the admin dashboard, and native iOS/macOS apps.
+Play a small game I built into my [portfolio](https://portofolio-gilang-lime.vercel.app): find a hidden Bluetooth beacon from noisy signal readings.
 Most of that work lives in private company repositories, so the overview below describes it at a high level.
 
 ### 🛠️ When I code, I rely on
