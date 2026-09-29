@@ -54,6 +54,15 @@ Most of that work lives in private company repositories, so the overview below d
 - **Operations**: an admin dashboard (HR and leave, progress reports), a WhatsApp messaging integration, staging CI/CD with GitHub Actions, a security audit and hardening, and a Figma design system
 - **Team**: I help onboard and train interns
 
+### 🧭 Experience
+
+| When | Role |
+|---|---|
+| 2025 – present | **Tech Developer**, Studia Academy Ltd (Hong Kong) |
+| Jun 2023 – 2025 | **Operation Analyst**, Studia Academy Ltd: automated admin work (1,000+ hours saved), shipped the Back-to-School booking page, looked after AWS |
+| Aug 2024 – Jan 2025 | **Full-Stack Web Development**, Purwadhika Digital Technology School |
+| 2018 – 2022 | **BSc, Animal Science**, IPB University |
+
 ### 📈 Contribution history
 
 | | |
