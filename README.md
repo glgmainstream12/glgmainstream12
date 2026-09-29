@@ -1,5 +1,5 @@
 <h1 align="center">Hi there, I'm Gilang Fauzan 👋</h1>
-<p align="center"><b>Tech Lead</b> at <a href="https://studiaacademy.com">Studia Academy</a> · Hong Kong</p>
+<p align="center"><b>Tech Developer</b> at <a href="https://studiaacademy.com">Studia Academy</a> · Hong Kong</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mohammad-gilang-fauzan-6975411a6/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -8,7 +8,7 @@
 
 ---
 
-I lead engineering at Studia Academy, an online tutoring company, where I own the platform end to end: the web app, the API behind it, the admin dashboard, and native iOS/macOS apps.
+I'm a Tech Developer at Studia Academy, an online tutoring company, where I work across the whole platform: the web app, the API behind it, the admin dashboard, and native iOS/macOS apps.
 Most of that work lives in private company repositories, so the overview below describes it at a high level.
 
 ### 🛠️ When I code, I rely on
@@ -50,7 +50,7 @@ Most of that work lives in private company repositories, so the overview below d
 - **Commerce and growth**: e-shop storefront and order management, a Google Merchant Center catalog sync, server-side Meta Conversions API, GA4 funnel tracking and Firebase A/B testing
 - **Auth and accounts**: hybrid password + email OTP + Google sign-in, and a tutor approval pipeline
 - **Operations**: an admin dashboard (HR and leave, progress reports), a WhatsApp messaging integration, staging CI/CD with GitHub Actions, a security audit and hardening, and a Figma design system
-- **Team**: I lead the engineering team and run intern onboarding and training
+- **Team**: I help onboard and train interns
 
 ### 🚀 Featured projects
 
