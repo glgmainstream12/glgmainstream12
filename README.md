@@ -52,6 +52,17 @@ Most of that work lives in private company repositories, so the overview below d
 - **Operations**: an admin dashboard (HR and leave, progress reports), a WhatsApp messaging integration, staging CI/CD with GitHub Actions, a security audit and hardening, and a Figma design system
 - **Team**: I help onboard and train interns
 
+### 📈 Contribution history
+
+| | |
+|---|---|
+| **Contributions** | 1,370+ since Oct 2024 (210 in 2024 · 626 in 2025 · 534 in 2026 so far) |
+| **Pull requests** | 318 authored, 299 merged · 62 reviewed |
+| **Studia Academy** | 290 PRs (273 merged) across 8 repos · top committer on both the web app and the API |
+| **Open source** | Merged fix in [SwiftyCrow](https://github.com/PangMo5/SwiftyCrow/pull/11) |
+
+> Most of my work is in private repositories, so the green squares show it but the repo list doesn't.
+
 ### 🚀 Featured projects
 
 | Project | What it is | Stack |
