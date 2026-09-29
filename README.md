@@ -1,5 +1,5 @@
 <h1 align="center">Hi there, I'm Gilang Fauzan 👋</h1>
-<p align="center"><b>Tech Developer</b> at <a href="https://studiaacademy.com">Studia Academy</a> · Hong Kong</p>
+<p align="center"><b>Tech Developer</b> at <a href="https://studiaacademy.com">Studia Academy</a> · Remote from Jakarta, Indonesia</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mohammad-gilang-fauzan-6975411a6/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -9,9 +9,9 @@
 
 ---
 
-I'm a Tech Developer at Studia Academy, an online tutoring company, where I work across the whole platform: the web app, the API behind it, the admin dashboard, and native iOS/macOS apps.
-Play a small game I built into my [portfolio](https://portofolio-gilang-lime.vercel.app): find a hidden Bluetooth beacon from noisy signal readings.
-Most of that work lives in private company repositories, so the overview below describes it at a high level.
+I'm a Tech Developer at Studia Academy, an online tutoring company based in Hong Kong. I work remotely from Jakarta. I build the software the company runs on: the Angular web app students and tutors use, the NestJS API behind it, and the admin dashboard staff work in. I also write SwiftUI apps.
+
+Play a small game I built into my [portfolio](https://portofolio-gilang-lime.vercel.app): find a hidden Bluetooth beacon from noisy signal readings. · [Download my CV](https://portofolio-gilang-lime.vercel.app/Gilang-Fauzan-CV.pdf)
 
 ### 🛠️ When I code, I rely on
 
@@ -39,29 +39,39 @@ Most of that work lives in private company repositories, so the overview below d
 
 ### 🤝 Open-source contributions
 
-- **[PangMo5/SwiftyCrow](https://github.com/PangMo5/SwiftyCrow)**: an on-device macOS screen translator (Vision OCR + Apple Translation)
+- **[PangMo5/SwiftyCrow](https://github.com/PangMo5/SwiftyCrow)**: open-source macOS screen translator. My merged fix (PR #11) lays out vertical Chinese and Japanese text correctly when translating into other languages.
   - ✅ Merged: [fix(overlay): lay vertical CJK blocks out horizontally for non-CJK targets (#11)](https://github.com/PangMo5/SwiftyCrow/pull/11)
 
 ### 💼 What I build at Studia Academy (private repos)
 
-- **Learning platform**: Angular SPA and NestJS + TypeORM + MySQL API serving students, parents, tutors and staff
-  - Class booking, scheduling and tutor availability, plus an in-house browser classroom
-  - Question bank, tutor-assigned practice homework, a teaching-materials repository and revision notes
-  - Invoicing, Stripe payments, a make-up credit ledger and tutor payroll
-- **AI features**: an AI agent for tutors with streaming chat, and RAG-style caching that cuts vision-model token costs
-- **Commerce and growth**: e-shop storefront and order management, a Google Merchant Center catalog sync, server-side Meta Conversions API, GA4 funnel tracking and Firebase A/B testing
-- **Auth and accounts**: hybrid password + email OTP + Google sign-in, and a tutor approval pipeline
-- **Operations**: an admin dashboard (HR and leave, progress reports), a WhatsApp messaging integration, staging CI/CD with GitHub Actions, a security audit and hardening, and a Figma design system
-- **Team**: I help onboard and train interns
+| Area | What |
+|---|---|
+| Classes | Booking, scheduling, tutor availability, and an in-house browser classroom |
+| Learning | A question bank, homework that tutors assign, and a shared materials library |
+| Money | Invoices, Stripe payments, a make-up class credit ledger, and tutor payroll |
+| Shop | The online shop and its Google Merchant Center catalog sync |
+| Meta platforms | Server-side Conversions API, Meta Pixel and a WhatsApp Cloud API calling module, alongside GA4 funnel tracking |
+| AI | An AI assistant for tutors with streaming chat |
+| Sign-in | Password, one-time email code, and Google sign-in, plus tutor approval |
+| Keeping it running | Staging CI/CD on GitHub Actions and a security audit |
 
 ### 🧭 Experience
 
-| When | Role |
-|---|---|
-| 2025 – present | **Tech Developer**, Studia Academy Ltd (Hong Kong) |
-| Jun 2023 – 2025 | **Operation Analyst**, Studia Academy Ltd: automated admin work (1,000+ hours saved), shipped the Back-to-School booking page, looked after AWS |
-| Aug 2024 – Jan 2025 | **Full-Stack Web Development**, Purwadhika Digital Technology School |
-| 2018 – 2022 | **BSc, Animal Science**, IPB University |
+**Tech Developer** · Studia Academy Ltd (Hong Kong, remote) · *2025 – present*
+- Full-stack and iOS development across the platform: the Angular web app, the NestJS API and the admin dashboard.
+- 290 pull requests across 8 company repositories, 273 merged; top committer on the web app and the API.
+- Built the online shop and its Google Merchant Center catalog sync.
+- Integrating Meta's platforms: server-side Conversions API, Meta Pixel and a WhatsApp Cloud API calling module, alongside GA4 funnel tracking.
+- Built an AI assistant for tutors with streaming chat.
+- Help onboard and train interns.
+
+**Operation Analyst** · Studia Academy Ltd (Hong Kong, remote) · *Jun 2023 – 2025*
+- Coordinated a 4-person team across UI/UX, backend (NestJS) and frontend (Angular).
+- Automated admin work: about 240 hours saved per person each year, over 1,000 hours in total.
+- Shipped the Back-to-School booking page (Next.js + Express) as a low-cost static site; bookings became three times faster.
+- Looked after AWS and handled incidents, avoiding about US$2,000 in costs.
+
+**Education**: Full-Stack Web Development (certification), Purwadhika Digital Technology School, Jakarta · *Aug 2024 – Jan 2025* · BSc, Animal Science, IPB University (Institut Pertanian Bogor) · *2018 – 2022*
 
 ### 📈 Contribution history
 
@@ -78,10 +88,10 @@ Most of that work lives in private company repositories, so the overview below d
 
 | Project | What it is | Stack |
 |---|---|---|
-| [bluetooth-tracker-ios](https://github.com/glgmainstream12/bluetooth-tracker-ios) ⭐ 11 | SwiftUI app that finds a BLE device by signal strength, with experimental direction and position modes (CoreBluetooth, CoreMotion, ARKit) | Swift |
-| [PDFkrama](https://github.com/glgmainstream12/PDFkrama) | A PDF viewer built with SwiftUI | Swift |
-| [AI-chatroom](https://github.com/glgmainstream12/AI-chatroom) | Chat API with conversation history and streaming AI responses | Node.js |
-| [web-template](https://github.com/glgmainstream12/web-template) | Full-stack starter: Next.js + Express in a Turborepo monorepo | TypeScript |
+| [bluetooth-tracker-ios](https://github.com/glgmainstream12/bluetooth-tracker-ios) ⭐ 11 | Finds a Bluetooth device by signal strength, with experimental modes that estimate direction and position | SwiftUI · CoreBluetooth · ARKit |
+| [PDFkrama](https://github.com/glgmainstream12/PDFkrama) | A PDF viewer I wrote from scratch in SwiftUI | SwiftUI · PDFKit |
+| [AI-chatroom](https://github.com/glgmainstream12/AI-chatroom) | A chat API that keeps conversation history and streams AI replies | Node.js |
+| [web-template](https://github.com/glgmainstream12/web-template) | A monorepo starter with a Next.js frontend, an Express backend and Docker support | Turborepo · Next.js · Express |
 
 ### 📊 GitHub stats
 
