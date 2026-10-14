@@ -9,15 +9,20 @@
 
 ---
 
-I'm a Tech Developer at Studia Academy, an online tutoring company based in Hong Kong. I work remotely from Jakarta. I build the software the company runs on: the Angular web app students and tutors use, the NestJS API behind it, and the admin dashboard staff work in. I also write SwiftUI apps.
+I'm a Tech Developer at Studia Academy, an online tutoring company based in Hong Kong. I work remotely from Jakarta. I build the software the company runs on: the Angular web app students and tutors use, the NestJS API behind it, the admin dashboard staff work in, and Studia AI, an LLM agent for tutors and students. I also write SwiftUI apps.
 
-Play a small game I built into my [portfolio](https://portofolio-gilang-lime.vercel.app): find a hidden Bluetooth beacon from noisy signal readings. · [Download my CV](https://portofolio-gilang-lime.vercel.app/Gilang-Fauzan-CV.pdf)
+Play a small game I built into my [portfolio](https://portofolio-gilang-lime.vercel.app): find a hidden Bluetooth beacon from noisy signal readings. · CV: [Software Engineer](https://portofolio-gilang-lime.vercel.app/Gilang-Fauzan-CV.pdf) · [AI Engineer](https://portofolio-gilang-lime.vercel.app/Gilang-Fauzan-CV-AI.pdf)
 
 ### 🛠️ When I code, I rely on
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Claude_API-191919?style=flat-square&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
@@ -51,19 +56,31 @@ Play a small game I built into my [portfolio](https://portofolio-gilang-lime.ver
 | Money | Invoices, Stripe payments, a make-up class credit ledger, and tutor payroll |
 | Shop | The online shop and its Google Merchant Center catalog sync |
 | Meta platforms | Server-side Conversions API, Meta Pixel and a WhatsApp Cloud API calling module, alongside GA4 funnel tracking |
-| AI | An AI assistant for tutors with streaming chat |
+| AI | Studia AI, an LLM agent for tutors and students, plus an MCP server and a RAG pipeline (see Applied AI below) |
 | Sign-in | Password, one-time email code, and Google sign-in, plus tutor approval |
 | Keeping it running | Staging CI/CD on GitHub Actions and a security audit |
+
+### 🤖 Applied AI (private repos)
+
+| Year | What | Stack |
+|---|---|---|
+| 2026 | **Studia AI agent** (on staging): an LLM agent for tutors and a hint-only study coach for students that never sees the answer key. Every tool call goes through the company API with the user's own token, so existing permissions decide what the model can see. Write actions (homework, file sharing, leave requests) are proposals a person confirms. Prompt caching, conversation history and a cost dashboard. | TypeScript · NestJS · Claude / OpenAI / DeepSeek · SSE |
+| 2026 | **MCP server**: gives AI assistants scoped, API-key access to courses, users, credits, practice questions and WhatsApp chats; also used to author practice questions. | TypeScript · Model Context Protocol |
+| 2026 | **API-key router**: a reverse proxy that hides Anthropic and OpenAI keys behind per-client keys, with streaming and upstream fallback. | Go · AWS |
+| 2025 | **RAG pipeline**: turns exam papers into a searchable dataset with OCR, chunking, embeddings and similarity search. | TypeScript · LangChain · OpenAI embeddings |
+| 2025 | **Past-paper pipeline**: converts IB past-paper PDFs into a structured, topic-classified question database, with S3, Google Drive and Sheets sync. | Python · FastAPI · SQLAlchemy · Claude Vision |
 
 ### 🧭 Experience
 
 **Tech Developer** · Studia Academy Ltd (Hong Kong, remote) · *2025 – present*
-- Full-stack and iOS development across the platform: the Angular web app, the NestJS API and the admin dashboard.
-- 290 pull requests across 8 company repositories, 273 merged; top committer on the web app and the API.
+- Full-stack development across the platform: the Angular web app, the NestJS API and the admin dashboard.
+- 326 pull requests across 8 company repositories, 306 merged; top committer on the web app and the API.
+- Built Studia AI, an LLM agent for tutors and students: tool calling through the company API with each user's own permissions, SSE streaming, and Claude, OpenAI and DeepSeek behind one provider layer.
+- Built an MCP server that gives AI assistants scoped access to platform data: courses, users, credits, practice questions and WhatsApp chats.
+- Built a Go API-key router that hides Anthropic and OpenAI keys behind per-client keys, with streaming and upstream fallback.
 - Built the online shop and its Google Merchant Center catalog sync.
 - Integrating Meta's platforms: server-side Conversions API, Meta Pixel and a WhatsApp Cloud API calling module, alongside GA4 funnel tracking.
-- Built an AI assistant for tutors with streaming chat.
-- Help onboard and train interns.
+- Help onboard and train interns, and keep proposals, runbooks and a team knowledge base up to date.
 
 **Operation Analyst** · Studia Academy Ltd (Hong Kong, remote) · *Jun 2023 – 2025*
 - Coordinated a 4-person team across UI/UX, backend (NestJS) and frontend (Angular).
@@ -77,9 +94,9 @@ Play a small game I built into my [portfolio](https://portofolio-gilang-lime.ver
 
 | | |
 |---|---|
-| **Contributions** | 1,370+ since Oct 2024 (210 in 2024 · 626 in 2025 · 534 in 2026 so far) |
-| **Pull requests** | 318 authored, 299 merged · 62 reviewed |
-| **Studia Academy** | 290 PRs (273 merged) across 8 repos · top committer on both the web app and the API |
+| **Contributions** | 1,470+ since Oct 2024 (210 in 2024 · 626 in 2025 · 641 in 2026 so far) |
+| **Pull requests** | 354 authored, 332 merged · 62 reviewed |
+| **Studia Academy** | 326 PRs (306 merged) across 8 repos · top committer on both the web app and the API |
 | **Open source** | Merged fix in [SwiftyCrow](https://github.com/PangMo5/SwiftyCrow/pull/11) |
 
 > Most of my work is in private repositories, so the green squares show it but the repo list doesn't.
